@@ -4,10 +4,205 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <header class="header">
+      <a href="#">
+        <img src="menu.svg" alt="menu" class="header__menu">
+      </a>
+      <a href="#">
+        <img src="logo.svg" alt="logo" class="header__logo">
+      </a>
+      <button class="header__button">
+        Join Now
+      </button>
+    </header>
+    <main>
+      <section class="description">
+        <div class="description__content">
+          <h1 class="description__title">
+            Plans & Pricing
+          </h1>
+          <div class="description__block">
+            <p class="description__subtitle">
+              Whether your time-saving automation needs are large or small, we’re here to help you scale.
+            </p>
+            <div class="description__group">
+              <p class="description__label">
+                MONTHLY
+              </p>
+              <p class="description__background">MONTHLY</p>
+              <p class="description__background">YEARLY</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="jadwalin">
+        <div class="jadwalin__wrapper">
+          <article class="jadwalin__plan">
+            <div class="jadwalin__wrap">
+              <p class="jadwalin__price">
+                <span class="jadwalin__priceNumber" id="priceNumber1">
+                  $19
+                </span>
+                <span class="jadwalin__priceText">
+                  /month
+                </span>
+              </p>
+              <h2 class="jadwalin__title">
+                Starter
+              </h2>
+              <p class="jadwalin__subtitle">
+                Unleash the power of automation.
+              </p>
+              <div class="jadwalin__items">
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label" style="background-image: url(checkbox.svg);">
+                  </p>
+                  <p class="jadwalin__explanation">
+                    Multi-step Zaps
+                  </p>
+                </div>
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label" style="background-image: url( checkbox.svg);">
+                  </p>
+                  <p class="jadwalin__explanation">
+                    3 Premium Apps
+                  </p>
+                </div>
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label" style="background-image: url( checkbox.svg);">
+                  </p>
+                  <p class="jadwalin__explanation">
+                    2 Users team
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="jadwalin__button">
+              Choose plan
+            </button>
+          </article>
+          <article class="jadwalin__plan">
+            <div class="jadwalin__wrap">
+              <p class="jadwalin__price">
+                <span class="jadwalin__priceNumber" id="priceNumber2">
+                  $54
+                </span>
+                <span class="jadwalin__priceText">
+                  /month
+                </span>
+              </p>
+              <h2 class="jadwalin__title">
+                Professional
+              </h2>
+              <p class="jadwalin__subtitle">
+                Advanced tools to take your work to the next level.
+              </p>
+              <div class="jadwalin__items">
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label" style="background-image: url( checkbox.svg);">
+                  </p>
+                  <p class="jadwalin__explanation">
+                    Multi-step Zaps
+                  </p>
+                </div>
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label" style="background-image: url( checkbox.svg);">
+                  </p>
+                  <p class="jadwalin__explanation">
+                    Unlimited Premium Apps
+                  </p>
+                </div>
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label" style="background-image: url( checkbox.svg);">
+                  </p>
+                  <p class="jadwalin__explanation">
+                    50 Users team
+                  </p>
+                </div>
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label" style="background-image: url( checkbox.svg);">
+                  </p>
+                  <p class="jadwalin__explanation">
+                    Shared Workspace
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="jadwalin__button">
+              Choose plan
+            </button>
+          </article>
+          <article class="jadwalin__plan jadwalin__plan--popular">
+            <div class="jadwalin__details">
+              MOST POPULAR
+            </div>
+            <div class="jadwalin__wrap jadwalin__wrap--popular">
+              <p class="jadwalin__price jadwalin__price--popular">
+                <span class="jadwalin__priceNumber jadwalin__priceNumber--popular" id="priceNumber3">
+                  $89
+                </span>
+                <span class="jadwalin__priceText">
+                  /month
+                </span>
+              </p>
+              <h2 class="jadwalin__title jadwalin__title--popular">
+                Company
+              </h2>
+              <p class="jadwalin__subtitle jadwalin__subtitle--popular">
+                Automation plus enterprise-grade features.
+              </p>
+              <div class="jadwalin__items">
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label jadwalin__label--popular" style="background-image: url( checkbox-popular.svg);">
+                  </p>
+                  <p class="jadwalin__explanation jadwalin__explanation--popular">
+                    Multi-step Zap
+                  </p>
+                </div>
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label jadwalin__label--popular" style="background-image: url( checkbox-popular.svg);">
+                  </p>
+                  <p class="jadwalin__explanation jadwalin__explanation--popular">
+                    Unlimited Premium Apps
+                  </p>
+                </div>
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label jadwalin__label--popular" style="background-image: url( checkbox-popular.svg);">
+                  </p>
+                  <p class="jadwalin__explanation jadwalin__explanation--popular">
+                    Unlimited Users Team
+                  </p>
+                </div>
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label jadwalin__label--popular" style="background-image: url( checkbox-popular.svg);">
+                  </p>
+                  <p class="jadwalin__explanation jadwalin__explanation--popular">
+                    Advanced Admin
+                  </p>
+                </div>
+                <div class="jadwalin__item">
+                  <p class="jadwalin__label jadwalin__label--popular" style="background-image: url( checkbox-popular.svg);">
+                  </p>
+                  <p class="jadwalin__explanation jadwalin__explanation--popular">
+                    Custom Data Retention
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="jadwalin__button jadwalin__button--popular">
+              Choose plan
+            </button>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

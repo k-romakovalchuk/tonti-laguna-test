@@ -1,7 +1,38 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "blocks/header.scss";
+@import "blocks/description.scss";
+@import "blocks/jadwalin.scss";
 
+h1,
+h2,
+span,
+p,
+div {
+  margin: 0;
+}
 body {
-  background: $c-gray;
+  background: linear-gradient(180deg, #F5F5FA 0%, #F2DAD5 44.15%, #A1ABD6 100%);
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+button {
+  border: 0;
+  transition: all 1s;
+  &:hover {
+    background-color: #A847CC;
+  }
+}
+
+main {
+  margin: 0 auto;
+  max-width: 937px;
+  padding: 0 10px;
+
+  @include onMobile {
+    padding: 0 16px;
+  }
 }

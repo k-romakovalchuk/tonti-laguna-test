@@ -1,4 +1,28 @@
 %h1 {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  color: $c-blue;
+}
+
+%h2 {
+  font-weight: $f-weight;
+  font-size: 28px;
+  line-height: 42px;
+  color: $c-blue;
+}
+
+%p {
+  font-weight: $f-weight;
+  font-size: $f-size;
+  line-height: $f-height;
+  color: $c-grey;
+}
+
+%button {
+  font-weight: $f-weight;
+  font-size: $f-size;
+  line-height: $f-height;
+  color: $c-white;
+  cursor: pointer;
 }

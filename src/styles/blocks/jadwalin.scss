@@ -1,0 +1,168 @@
+.jadwalin {
+  margin-bottom: 70px;
+
+  &__wrapper {
+    display: flex;
+    background: rgba(255, 255, 255, 0.64);
+    border-radius: 26px;
+    height: 467px;
+    justify-content: space-evenly;
+
+    @include onMobile {
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+      gap: 48px;
+      padding: 32px 28px;
+    }
+  }
+
+  &__plan {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: 232px;
+
+    &--popular {
+      position: relative;
+      box-sizing: border-box;
+      top: -6%;
+      padding: 20px 30px;
+      background-color: $c-blue;
+      box-shadow: 0px 42px 34px rgba(82, 67, 194, 0.295755);
+      border-radius: 26px;
+      max-width: 292px;
+      height: 473px;
+
+      @include onMobile {
+        height: auto;
+      }
+    }
+
+    @include onMobile {
+      gap: 38px;
+      margin-bottom: 0;
+      padding-top: 0;
+    }
+
+  }
+
+  &__price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 4px;
+    
+
+    &--popular {
+      color: #fff;
+    }
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+
+    &--popular {
+      color: #fff;
+    }
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__item {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__priceNumber {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: $c-blue;
+
+    &--popular {
+      color: #fff;
+    }
+  }
+
+  &__explanation {
+    &--popular {
+      color: #fff;
+    }
+  }
+
+  &__title {
+    margin-bottom: 6px;
+
+    &--popular {
+      color: #fff;
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 15px;
+
+    &--popular {
+      color: #fff;
+    }
+  }
+
+  &__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    width: 121px;
+    background-color: #403879;
+    border-radius: 13.5px;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.833333px;
+    color: $c-violet;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    @include onMobile {
+      margin-left: 0;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__button {
+    width: auto;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: $c-blue;
+    mix-blend-mode: normal;
+    border-radius: 24px;
+    
+    &--popular {
+      background-color: $c-violet;
+    }
+  }
+
+  &__label {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(82, 67, 194, 0.15);
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &--popular {
+      background-color: rgba(247, 247, 247, 0.1);
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 50px;
+  margin-bottom: 70px;
+
+  @include onMobile {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  &__button {
+    width: 124px;
+    height: 38px;
+    background-color: $c-violet;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+  }
+
+  &__logo {
+    @include onMobile {
+      display: none;
+    }
+  }
+}

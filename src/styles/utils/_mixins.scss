@@ -4,3 +4,10 @@
     #{$_property}: $_toValue;
   }
 }
+
+
+@mixin onMobile {
+  @media (max-width: 700px) {
+    @content;
+  }
+}
